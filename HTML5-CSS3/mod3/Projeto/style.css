@@ -1,146 +1,149 @@
-header{
-    background-color: #BBB;
-    padding: 0 20px;
+body {
+	font-family: 'Montserrat', sans-serif;
 }
 
-.caixa{
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
 }
 
-nav{
-    position: absolute;
-    top: 110px;
-    right: 0;
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
 }
 
-nav li{
-    display: inline;
-    margin: 0 0 0 10px;
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
 }
 
-nav a{
-    color: #000;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
 }
 
-nav a:hover{
-    text-decoration: underline;
-    color: #c79C19;
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
 }
 
-.produtos{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
 }
 
-.produtos li{
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid #000;
-    border-radius: 10px;
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
 }
 
-.produtos li:hover{
-    border-color: #c79C19;
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
 }
 
-.produtos li:active{
-    border-color: #088C19;
+.produtos li:hover {
+	border-color: #C78C19;
 }
 
-.produtos li:hover h2{
-    font-size: 34px;
+.produtos li:active {
+	border-color: #088C19;	
 }
 
-.produtos h2{
-    font-weight: bold;
-    font-size: 30px;
+.produtos li:hover h2 {
+	font-size: 34px;
 }
 
-.descricao-prod{
-    font-size: 18px;
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
 }
 
-.preco{
-    margin-top: 10px;
-    font-weight: bold;
-    font-size: 22px;
+.produto-descricao {
+	font-size: 18px;
 }
 
-footer{
-    background-image: url(../Materiais/bg.jpg);
-    text-align: center;
-    padding: 40px 0px;
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
 }
 
-footer p{
-    color: #fff;
-    font-size: 13px;
+footer {
+	text-align: center;
+	background: url("../Materiais/bg.jpg");
+	padding: 40px 0;
 }
 
-main{
-    width: 940px;
-    margin: 0 auto;
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
 }
 
-form{
-    margin: 40px 0;
+form {
+	margin: 40px 0;
 }
 
-form label, form legend{
-    display: block;
-    font-size: 20px;
-    margin: 0 0 10px;
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
 }
 
-.input-padrao{
-    display: block;
-    margin: 0 0 10px;
-    width: 50%;
-    padding: 10px 25px;
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
 }
 
-#receber-emails{
-    margin: 20px 0;
+.checkbox {
+	margin: 20px 0;
 }
 
-.enviar{
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    background: #ffa500;
-    width: 40%;
-    color: #fff;
-    padding: 20px 0;
-    transition: 1s all;
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
 }
 
-.enviar:hover{
-    background-color: #ff8c00;
-    transform: scale(1.2);
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
 }
 
-table{
-    margin: 10px 0;
+table {
+	margin: 20px 0 40px;
 }
 
-thead{
-    background-color: #555;
-    color: #fff;
-    font-weight: bold;
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
 }
 
-td, th{
-    border: 1px solid #000;
-    padding: 8px 25px;
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
 }
