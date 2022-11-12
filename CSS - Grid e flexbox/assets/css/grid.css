@@ -1,0 +1,32 @@
+div.container{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.container__red{
+    background-color: red;
+    grid-column: span 4;
+}
+
+.container__green{
+    background-color: green;
+    grid-row: span 3;
+}
+
+.container__blue{
+    background-color: blue;
+    grid-row: span 3;
+    grid-column: span 2;
+}
+
+.container__darkblue{
+    background-color: darkblue;
+}
+
+.container__pink{
+    background-color: pink;
+    grid-row: span 2;
+}
