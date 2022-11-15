@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --cor-padrao: #fff;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7; 
+    --background-pag: #00030C;
+    --letra-padrao: 'Inter' , sans-serif;
+}
+
+body{
+    background-color: var(--background-pag);
+    font-family: var(--letra-padrao);
+    color: var(--cor-padrao);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+.container__caixa{
+    margin: 0 6rem;
+}
+
+.conteiner__titulo{
+    font-weight: 700;
+    font-size: calc(2rem - 4px);
+}
+
+.container__imagem{
+    margin: 1rem 0 2rem 0;
+}
+
+.container__botao{
+    background-color: var(--botao-azul);
+    padding: 1rem;
+    border-radius: 5px;
+    display: block;
+    color: var(--cor-padrao);
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.botao-sec{
+    background-color: transparent;
+    border: 2px solid var(--cor-padrao);
+}
+
+.container__aviso{
+    color: var(--cinza-secundario);
+    font-size: calc(1rem - 4px);
+}
+
+.landing-page{
+    background-image: url("../img/Background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.secundario{
+    text-align: left;
+    margin: 0 6rem;
+}
+
+.secundario__imagem{
+    width: 80%;
+}
+
+.secundario__botao{
+    display: inline-block;
+    margin: 0.5rem 0;
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 0.3rem;
+}
+
+.descricao__texto{
+    line-height: 1.5rem;
+    font: 400;
+    color: var(--cinza-secundario);
+}
+
+.dispositivos__titulo{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.dispositivos__lista{
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.rodape__imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.rodape__logo{
+    margin: 2rem 0;
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+}
+
+.lista__item > a{
+    color: var(--cinza-secundario);
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0 5px;
+}
+
+.rodape__texto{
+    font-size: 14px;
+    color: var(--cinza-secundario);
+    text-align: center;
+    margin: 2rem 0;
+}
