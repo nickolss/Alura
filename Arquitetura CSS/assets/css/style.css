@@ -1,0 +1,15 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(sobre.css);
+@import url(receitas.css);
+@import url(quemsomos.css);
+@import url(footer.css);
+
+body{
+    font-family: 'Roboto';
+}
+
+:root{
+    --vinho:#8D0606;
+    --titulos: 'Pacifico';
+}

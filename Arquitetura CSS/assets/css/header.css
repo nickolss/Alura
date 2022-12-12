@@ -1,0 +1,42 @@
+.cabecalho{
+    display: flex;
+    background-color: #f9f9f9;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+@media screen and (max-width:480px){
+    .cabecalho{
+        padding: 0 1rem;
+    }
+
+    .cabecalho__logo{
+        display: none;
+    }
+}
+
+.nav__list{
+    display: flex;
+}
+
+.nav__item{
+    display: flex;
+    list-style: none;
+    padding: 0 1rem;
+    text-transform: lowercase;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: #808080;
+}
+
+.nav__link:hover{
+    text-decoration: underline;
+}
+
+.active{
+    color: #333333;
+    font-weight: bold;
+}

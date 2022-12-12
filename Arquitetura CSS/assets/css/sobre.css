@@ -1,0 +1,16 @@
+.sobre{
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.sobre__titulo{
+    font-family: var(--titulos);
+    font-weight: 400;
+    color: var(--vinho);
+    font-size: 3.5rem;
+}
+
+.sobre__conteudo{
+    color: #8C8888;
+    font-size: 1.5rem;
+}
