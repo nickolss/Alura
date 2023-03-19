@@ -1,0 +1,32 @@
+$fundo-principal: red;
+$fundo-secundario: blueviolet;
+
+@mixin corETexto($corFundo, $corTexto){
+    width: 50vw;
+    background-color: $corFundo;
+
+    .texto{
+        margin-top: 40%;
+        text-align: center;
+        font-size: 3rem;
+        color: $corTexto;
+    }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+
+    .esquerdo{
+        @include corETexto($fundo-principal, $fundo-secundario);
+    }
+
+    .direito{
+        @include corETexto($fundo-secundario, $fundo-principal);
+    }
+}

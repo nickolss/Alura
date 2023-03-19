@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+.container .esquerdo {
+  width: 50vw;
+  background-color: red;
+}
+.container .esquerdo .texto {
+  margin-top: 40%;
+  text-align: center;
+  font-size: 3rem;
+  color: blueviolet;
+}
+.container .direito {
+  width: 50vw;
+  background-color: blueviolet;
+}
+.container .direito .texto {
+  margin-top: 40%;
+  text-align: center;
+  font-size: 3rem;
+  color: red;
+}/*# sourceMappingURL=style.css.map */
